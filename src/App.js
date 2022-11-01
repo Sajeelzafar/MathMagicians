@@ -1,9 +1,15 @@
 // import logo from './logo.svg';
-import buttons from './components/calculator';
+import React from 'react';
+import Calculator from './components/calculator'; // Import Calculator component
 import './App.css';
 
-function App() {
-  return buttons();
+class App extends React.PureComponent {
+  render() {
+    // reference as a js object
+    return (
+      <Calculator />
+    );
+  }
 }
 
 export default App;
