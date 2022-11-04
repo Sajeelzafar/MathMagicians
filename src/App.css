@@ -13,7 +13,7 @@
 }
 
 .display {
-  height: 1rem;
+  height: 2rem;
   text-align: right;
   width: 19.5%;
   padding: 1% 0.5% 0.5% 0%;
@@ -23,9 +23,6 @@
 
 .calculator {
   width: 20%;
-}
-
-.buttons {
   text-decoration: none;
   grid-template-columns: auto auto auto auto;
   list-style: none;
@@ -43,6 +40,7 @@
 .colorButtons {
   height: 3rem;
   border: 1px solid rgb(215, 215, 215);
+  cursor: pointer;
 }
 
 .simpleButtons,
