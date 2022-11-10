@@ -1,0 +1,8 @@
+.active {
+    color: orangered;
+    text-decoration: underline;
+  }
+
+  .navBar{
+    display: flex;
+  }
