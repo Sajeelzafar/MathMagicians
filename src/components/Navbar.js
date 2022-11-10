@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className="navBar">
       <h1 className="heading">Math Magicians</h1>
-      <ul>
+      <ul className="linkContainer">
         {links.map((link) => (
           <li key={link.id}>
             <NavLink to={link.path}>{link.text}</NavLink>

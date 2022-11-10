@@ -5,4 +5,30 @@
 
   .navBar{
     display: flex;
+    justify-content: space-between;
+    padding: 5%;
+  }
+
+  .linkContainer{
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0.5rem;
+  }
+
+  .linkContainer > li {
+    border-right: 2px solid black;
+    padding-right: 1rem;
+  }
+
+  .linkContainer > li:last-child {
+    border-right: none;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .imageContainer {
+    padding: 1%;
   }
