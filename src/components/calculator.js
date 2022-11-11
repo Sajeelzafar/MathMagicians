@@ -12,7 +12,8 @@ const Calculator = () => {
   };
 
   return (
-    <section className="calculatorContainer flex">
+    <section className="calculatorContainer">
+      <h2 className="calculatorHeading">Let&apos;s do some Maths</h2>
       <div className="display">
         {initialstate.total}
         {initialstate.operation}
