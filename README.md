@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# JavaScript Capstone Project
+# Math Magicians
 
 > In this project, a calculator is being build using React application.
 
@@ -14,7 +14,7 @@
   
 ## Live Demo (if available)
 
-[**Live Demo Link will be Available Soon🚀**]()
+[**Live Demo Link🚀**](https://636d8d05373c6356ca664381--delightful-truffle-ec3959.netlify.app/)
 
 ## Getting Started
 
